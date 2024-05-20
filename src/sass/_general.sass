@@ -1,0 +1,197 @@
+html
+    font-size: 62.5%
+    overflow-x: hidden
+    scroll-padding-top: 9rem
+    scroll-behavior: smooth
+    &::-webkit-scrollbar
+        width: .8rem
+    &::-webkit-scrollbar-track
+        background: transparent
+    &::-webkit-scrollbar-thumb
+        background: rgb(3, 3, 3)
+        border-radius: 5rem
+h3, h4, h5
+    font-family: 'Merriweather', serif
+    font-size: 6rem
+h3
+    font-size: 6rem
+h5
+    font-size: 2rem
+    text-align: center
+section
+    padding: 4rem 0
+.container
+    max-width: 1300px
+    margin: 0 auto
+.btn
+    padding: 2rem 0
+    font-size: 1.7rem
+    cursor: pointer
+    margin: 2rem auto
+    border: none
+    font-weight: 700
+    &:hover
+        letter-spacing: .2rem
+.btn_apply
+    width: 350px
+    display: flex
+    justify-content: center
+    transition: .3
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 5%
+    position: absolute
+    background-color: rgba(153, 153, 153, 0.3)
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1000
+    height: 75p
+    &_left, &_right
+        display: flex
+        justify-content: space-between
+    &_left
+        width: 20%
+        .logo
+            max-height: 75px
+            display: flex
+            justify-content: space-between
+            img
+                max-width: 75px
+            &_text
+                margin: auto 10px
+                font-weight: 700
+                font-size: 50px
+                font-family: 'Roboto', sans-serif
+                color: white
+    &_right
+        width: 70%
+        height: 100%
+        nav
+            display: flex
+            margin: auto
+            .link
+                position: relative
+                font-weight: 700
+                font-size: 2.5rem
+                color: white
+                text-decoration: none
+                margin: 0 1rem
+                &:hover
+                    color: #CC0000
+                    border-bottom: .1rem solid #CC0000
+                    padding-bottom: .5rem
+.home
+    min-height: 750px
+    height: 100vh
+    display: flex
+    align-items: center
+    &_content
+        max-width: 60rem
+        display: inline
+        justify-content: space-between
+        h3
+            font-size: 6rem
+            text-transform: capitalize
+            color: #efefef
+            text-align: center
+            margin: 20px auto
+        p
+            font-size: 2.5rem
+            font-weight: normal
+            line-height: 1.8
+            padding: 1rem 0
+            color: #efefef
+            text-align: center
+footer
+    min-height: 180px
+    background-color: rgb(86, 2, 2)
+    text-align: center
+    font-size: 25px
+    .social
+        .fa
+            margin: 15px 0
+            padding: 20px
+            font-size: 30px
+            width: 65px
+            text-align: center
+            text-decoration: none
+            border-radius: 50%
+            &:hover
+                opacity: 0.7
+        .fa-facebook
+            background: #3B5998
+            color: white
+        .fa-instagram
+            background: linear-gradient(to bottom right, indigo, violet,red, orange, yellow)
+            color: white
+        .fa-twitter
+            background: #55ACEE
+            color: white
+    .contact
+        line-height: 40px
+        .link
+            display: block
+            color: #efefef
+        .address
+            color: #efefef
+            padding-bottom: 15px
+.modal
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1050
+    display: none
+    width: 100%
+    height: 100%
+    overflow: hidden
+    background-color: rgba(0, 0, 0, .5)
+    &_dialog
+        max-width: 500px
+        margin: 40px auto
+    &_content
+        position: relative
+        width: 100%
+        padding: 40px
+        background-color: #fff
+        border: 1px solid rgba(0, 0, 0, .2)
+        border-radius: 4px
+        max-height: 80vh
+        overflow-y: auto
+    &_close
+        position: absolute
+        top: 8px
+        right: 14px
+        font-size: 30px
+        color: #000
+        opacity: .5
+        font-weight: 700
+        border: none
+        background-color: transparent
+        cursor: pointer
+    &_title
+        text-align: center
+        font-size: 22px
+        text-transform: uppercase
+    &_input
+        display: block
+        margin: 20px auto 20px auto
+        width: 280px
+        height: 50px
+        background: #fff
+        box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+        border: none
+        font-size: 18px
+        text-align: center
+        padding: 0 20px
+        outline: 0
+    .btn
+        display: block
+        width: 280px
+        margin: 0 auto
+.show
+    display: block
+.hide
+    display: none

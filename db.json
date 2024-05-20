@@ -1,0 +1,456 @@
+{
+  "taekwondo_coaches": [
+    {
+      "img": "img/coaches/tkd_coach_1.jpg",
+      "altimg": "tkd_coach",
+      "name": "Dae Hoon Lee",
+      "descr": [
+        "Mistrz świata",
+        "Srebrny medalista igrysk olimpijskich 2012r.",
+        "Brązowy medalista igrysk olimpijskich 2016r."
+      ]
+    },
+    {
+      "img": "img/coaches/tkd_coach_2.png",
+      "altimg": "tkd_coach",
+      "name": "Jade Jones",
+      "descr": [
+        "Mistrzyni olimpijska 2012r. i 2016r.",
+        "Srebrna medalistka mistrzostw świata",
+        "Mistrzyni igrysk olimpijskich młodzieży 2010r."
+      ]
+    },
+    {
+      "img": "img/coaches/tkd_coach_3.jpg",
+      "altimg": "tkd_coach",
+      "name": "Servet Tazegul",
+      "descr": [
+        "Mistrz olimpijski 2012r.",
+        "Brązowy medalista igrysk olimpijskich 2008r.",
+        "Mistrz świata"
+      ]
+    }
+  ],
+  "boxing_coaches": [
+    {
+      "img": "img/coaches/boks_coach_1.jpg",
+      "altimg": "boxing_coach",
+      "name": "Oleksandr Usyk",
+      "descr": [
+        "Mistrz olimpijski 2012r.",
+        "Amatorski mistrz świata",
+        "Mistrz świata WBO, WBA, IBF i IBO"
+      ]
+    },
+    {
+      "img": "img/coaches/boks_coach_2.jpg",
+      "altimg": "boxing_coach",
+      "name": "Claressa Shields",
+      "descr": [
+        "Mistrzyni olimpijska 2012r. i 2016r.",
+        "Amatorska mistrzyni świata",
+        "Mistzryni świata IBF, WBC, WBA i WBO"
+      ]
+    },
+    {
+      "img": "img/coaches/boks_coach_3.jpg",
+      "altimg": "boxing_coach",
+      "name": "Mike Tyson",
+      "descr": [
+        "Dwukrotny mistrz świata wszechwag zawodowców",
+        "Mistrz świata WBC, WBO, IBF i WBA",
+        "Został wprowadzony do Międzynarodowej Galerii Sław Bokserskich i Światowej Galerii Bokserskiej"
+      ]
+    }
+  ],
+  "kickboxing_coaches": [
+    {
+      "img": "img/coaches/kick_coach_1.jpg",
+      "altimg": "kick_coach",
+      "name": "Luis Tavares",
+      "descr": [
+        "Mistrz Enfusion wagi ciężkiej i superciężkiej",
+        "Drugi najlepszy w wadze półciężkiej przez Cmpat Press 2022r.",
+        "Drugi najlepszy przez Beyond Kick 2022r."
+      ]
+    },
+    {
+      "img": "img/coaches/kick_coach_2.jpg",
+      "altimg": "kick_coach",
+      "name": "Lena Ovchynnikova",
+      "descr": [
+        "Amatorska mistrzyni WKA",
+        "Mistzryni świata ISKA w formule K-1",
+        "Mistzryni WKF w formule K-1"
+      ]
+    },
+    {
+      "img": "img/coaches/kick_coach_3.jpg",
+      "altimg": "kick_coach",
+      "name": "Rico Verhoeven",
+      "descr": [
+        "Mistrz świata GLORY",
+        "Mistrz turnieju GLORY",
+        "Pierwszy w rankingu wagi ciężkiej na świecie przez Combat Press"
+      ]
+    }
+  ],
+  "gym_coaches": [
+    {
+      "img": "img/coaches/gym_coach_1.jpg",
+      "altimg": "gym_coach",
+      "name": "Sebastian Kosmala",
+      "descr": [
+        "Certyfikowany trener personalny",
+        "Fizjoterapeuta",
+        "Instruktor trójboju siłowego"
+      ]
+    },
+    {
+      "img": "img/coaches/gym_coach_2.jpg",
+      "altimg": "gym_coach",
+      "name": "Monika Chmielarz",
+      "descr": [
+        "Absolwentka dietetyki",
+        "Instrukrorka TRX",
+        "Technik masażysta"
+      ]
+    },
+    {
+      "img": "img/coaches/gym_coach_3.jpeg",
+      "altimg": "gym_coach",
+      "name": "Jakub Szewczyk",
+      "descr": [
+        "Instruktor CrossFit",
+        "Specjalista do spraw żywienia i suplementacji",
+        "Certyfikowany trener personalny"
+      ]
+    }
+  ],
+  "box_equip": [
+    {
+      "img": [
+        "img/shop/box_equip/gloves_1.jpg",
+        "img/shop/box_equip/gloves_2.jpg"
+      ],
+      "altimg": "gloves",
+      "name": "VENUM Rękawice bokserskie Elite 2.0",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/box_equip/bandage_1.jpg",
+        "img/shop/box_equip/bandage_2.jpg"
+      ],
+      "altimg": "bandage",
+      "name": "FirePower Bandaże bokserskie bawełniane FPHW4",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/box_equip/helmet_1.jpg",
+        "img/shop/box_equip/helmet_2.jpg"
+      ],
+      "altimg": "helmet",
+      "name": "ADIDAS Kask Bokserski Turniejowy AIBA",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/box_equip/uniform_1.jpg",
+        "img/shop/box_equip/uniform_2.jpg"
+      ],
+      "altimg": "uniform",
+      "name": "ADIDAS Komplet bokserski Base Punch",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/box_equip/gel_gloves_1.jpg",
+        "img/shop/box_equip/gel_gloves_3.jpg"
+      ],
+      "altimg": "gel_gloves",
+      "name": "EVERLAST Żelowe rękawiczki Evergel Hand Wraps",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/box_equip/shoes_1.jpeg",
+        "img/shop/box_equip/shoes_2.jpeg"
+      ],
+      "altimg": "bandage",
+      "name": "FAIRTEX HW2 Kremowe 4,5m",
+      "descr": "Naturalna skóra",
+      "price": 300
+    }
+  ],
+  "kick_equip": [
+    {
+      "img": [
+        "img/shop/kick_equip/gloves_1.jpg",
+        "img/shop/kick_equip/gloves_2.jpg"
+      ],
+      "altimg": "gloves",
+      "name": "BUSHIDO Rękawice bokserskie B-2v8",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/kick_equip/teeth_1.jpg",
+        "img/shop/kick_equip/teeth_2.jpg"
+      ],
+      "altimg": "teeth",
+      "name": "LEONE Szczęka TOP GUARD PD513",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/kick_equip/helmet_1.jpg",
+        "img/shop/kick_equip/helmet_2.jpg"
+      ],
+      "altimg": "helmet",
+      "name": "PLATINUM FIGHTER Kask Bokserski Guardian",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/kick_equip/shorts_1.jpg",
+        "img/shop/kick_equip/shorts_2.jpg"
+      ],
+      "altimg": "bandage",
+      "name": "LEONE Spodenki kickboxing",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/kick_equip/tibia_1.jpg",
+        "img/shop/kick_equip/tibia_2.jpg"
+      ],
+      "altimg": "bandage",
+      "name": "FAIRTEX Ochraniacze Piszczeli i Stopy SP5 Competition",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/kick_equip/crotch_1.jpg",
+        "img/shop/kick_equip/crotch_2.jpg"
+      ],
+      "altimg": "bandage",
+      "name": "VENUM Ochraniacz krocza Challenger Suspensor",
+      "descr": "Naturalna skóra",
+      "price": 300
+    }
+  ],
+  "tkd_equip": [
+    {
+      "img": [
+        "img/shop/tkd_equip/gloves_1.jpg",
+        "img/shop/tkd_equip/gloves_2.jpg"
+      ],
+      "altimg": "gloves",
+      "name": "WTF Rękawice taekwondo SP-Sport",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/tkd_equip/prot_1.jpg",
+        "img/shop/tkd_equip/prot_2.jpg"
+      ],
+      "altimg": "protector",
+      "name": "DAEDO Hogo Ochraniacz Tułowia Dwustronny",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/tkd_equip/set_1.jpg",
+        "img/shop/tkd_equip/set_2.jpg"
+      ],
+      "altimg": "set",
+      "name": "MOOTO Zestaw sprzętu do taekwondo dla dzieci",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/tkd_equip/socks_1.jpg",
+        "img/shop/tkd_equip/socks_2.jpg"
+      ],
+      "altimg": "socks",
+      "name": "MOOTO Ochraniacz stóp Taekwondo",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/tkd_equip/tibia_1.jpg",
+        "img/shop/tkd_equip/tibia_2.jpg"
+      ],
+      "altimg": "tibia",
+      "name": "DAEDO Ochraniacze piszczeli do taekwondo",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/tkd_equip/uniform_1.jpg",
+        "img/shop/tkd_equip/uniform_2.jpg"
+      ],
+      "altimg": "uniform",
+      "name": "ADIDAS Dobok do taekwondo ADI-CONTEST",
+      "descr": "Naturalna skóra",
+      "price": 300
+    }
+  ],
+  "gym_equip": [
+    {
+      "img": [
+        "img/shop/gym_equip/shoes_1.jpg",
+        "img/shop/gym_equip/shoes_2.jpg"
+      ],
+      "altimg": "shoes",
+      "name": "ZELART Buty do podnoszenia ciężarów",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/gym_equip/belt_1.jpg",
+        "img/shop/gym_equip/belt_2.jpg"
+      ],
+      "altimg": "belt",
+      "name": "ZELART Pas kulturystyczny skórzany",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/gym_equip/knee_1.jpg",
+        "img/shop/gym_equip/knee_2.jpg"
+      ],
+      "altimg": "knee",
+      "name": "ZELART SB-167076 Stabilizator na kolana do przysiadów",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/gym_equip/straps_1.jpg",
+        "img/shop/gym_equip/straps_2.jpg"
+      ],
+      "altimg": "straps",
+      "name": "SKDK Taśma (pasek) do martwego ciągu",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/gym_equip/wrist_1.jpg",
+        "img/shop/gym_equip/wrist_2.jpg"
+      ],
+      "altimg": "wrist",
+      "name": "VALEO Bandaże na nadgarstek do wyciskania i ciągu",
+      "descr": "Naturalna skóra",
+      "price": 300
+    },
+    {
+      "img": [
+        "img/shop/gym_equip/hook_1.jpg",
+        "img/shop/gym_equip/hook_2.jpg"
+      ],
+      "altimg": "hook",
+      "name": "ZELART Opaska na nadgarstek z haczykiem",
+      "descr": "Naturalna skóra",
+      "price": 300
+    }
+  ],
+  "requests": [
+    {
+      "name": "Maksym",
+      "phone": "+48736408056",
+      "email": "max17111999@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Ania",
+      "phone": "+48886996180",
+      "email": "rialana1997@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Aleksandr",
+      "phone": "+380993647140",
+      "email": "panasyura@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "sjhdgkjdhsg",
+      "phone": "354364375375",
+      "email": "fsakjfhsjkf@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Maksym",
+      "phone": "+48736408056",
+      "email": "max17111999@gmail.com",
+      "sport": "gym",
+      "id": 5
+    },
+    {
+      "name": "Ania",
+      "phone": "+48886996180",
+      "email": "rialana1997@gmail.com",
+      "sport": "taekwondo",
+      "id": 6
+    },
+    {
+      "name": "wgkejhsdkj",
+      "phone": "356287356",
+      "email": "skjghd@khgd.com",
+      "sport": "taekwondo",
+      "id": 7
+    },
+    {
+      "name": "dsjhgjk",
+      "phone": "465432",
+      "email": "kjsdhgf@hjk.com",
+      "sport": "taekwondo",
+      "id": 8
+    },
+    {
+      "name": "jxckvb",
+      "phone": "64468",
+      "id": 9
+    },
+    {
+      "name": "Maksym",
+      "phone": "+48736408056",
+      "email": "max17111999@gmail.com",
+      "sport": "gym",
+      "id": 10
+    },
+    {
+      "name": "Aleksandr",
+      "phone": "+48 354-364-375",
+      "email": "panasyura@gmail.com",
+      "sport": "kickboxing",
+      "id": 11
+    },
+    {
+      "name": "Aleksandr",
+      "phone": "+48 354-364-375",
+      "id": 12
+    }
+  ]
+}

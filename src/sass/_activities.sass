@@ -1,0 +1,132 @@
+.act_home
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/activities/act_img.jpg) no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+.act_offers
+    min-height: 600px
+    background-color: #efefef
+    padding: 100px 0
+    &_wrapper
+        display: flex
+        justify-content: space-evenly
+        margin: auto
+        flex-wrap: wrap
+        .offer
+            width: 265px
+            height: 400px
+            left: 295px
+            top: 27px
+            text-align: center
+            filter: grayscale(100%)
+            &_tkd
+                background: url(../img/activities/tkdo_img.jpg) 50% 50%/cover no-repeat
+            &_box
+                background: url(../img/activities/boxing_img.jpeg) 50% 50%/cover no-repeat
+            &_kick
+                background: url(../img/activities/kickboxing_img.jpg) 50% 50%/cover no-repeat
+            &_gym
+                background: url(../img/activities/gym_img.jpg) 50% 50%/cover no-repeat
+            &_btn
+                width: 200px
+                height: 55px
+                margin: auto
+                text-align: center
+                position: relative
+                top: 315px
+                border-radius: 50px
+                cursor: pointer
+                padding: 0
+                color: #5c5a5a
+                background-color: #cccccc
+                &:hover
+                    background-color: #333333
+                    color: #CC0000
+            &:hover
+                filter: none
+.box_home
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/boxing/boxing_img.jpeg) no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+.tkd_home
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/taekwondo/tkdo_img.jpg) no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+.kick_home
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/kickboxing/kickboxing_img.jpg) no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+.gym_home
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/gym/gym_img.jpg) no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+.gallery
+    align-items: center
+    text-align: center
+    .slider
+        max-width: 1000px
+        display: flex
+        margin: auto
+        &_wrapper
+            width: 100%
+            box-shadow: 0 4px 30px rgba(0, 0, 0, .25)
+            margin: 0 20px
+            .slide
+                width: 100%
+                height: 600px
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+        &_prev, &_next
+            cursor: pointer
+            align-items: center
+            margin: auto
+            img
+                width: 50px
+.act_descr
+    min-height: 650px
+    max-width: 1200px
+    margin: 0 auto
+    display: flex
+    &_text
+        font-size: 20px
+        font-weight: bold
+        line-height: 36px
+        margin-bottom: 30px
+    &_divider
+        max-width: 250px
+        width: 100%
+        height: 3px
+        background-color: #1f5bff
+        margin: 0 auto
+    &_advantages
+        max-width: 760px
+        margin: 30px auto 0 auto
+        font-size: 20px
+        line-height: 1.55
+        .adv_head
+            font-weight: bold
+            text-align: center
+        .adv_wrapper
+            display: inline-block
+            margin: 0 auto
+            .adv_item
+                display: flex
+                align-items: center
+                flex-wrap: wrap
+                margin: 10px 20px
+                min-height: 75px
+                img
+                    max-width: 50px
+                &_descr
+                    padding-left: 40px
+                    max-width: 650px
+    button
+        color: #ffffff
+        background-color: #7e828f
+        border-radius: 30px

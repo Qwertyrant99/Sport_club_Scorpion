@@ -1,0 +1,66 @@
+.prices_home
+    background: linear-gradient(rgba(189, 117, 117, 0.8), rgba(31, 31, 31, 0.7)), url(../img/prices/prices_img.jpg) no-repeat
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+.price
+    &_gym, &_martialArts
+        h4
+            font-size: 32px
+            text-decoration: underline
+            padding-bottom: 20px
+        h5
+            font-size: 22px
+            line-height: 1.23
+        p
+            font-size: 16px
+            padding: 20px 0
+            line-height: 1.55
+        &_head
+            text-align: center
+        .gp, .map
+            &_wrapper
+                display: flex
+                height: 80%
+                justify-content: space-between
+            &_item
+                border: 2px solid black
+                text-align: center
+                padding: 2rem
+                max-width: 360px
+                width: 100%
+                flex-wrap: wrap
+                img
+                    width: 100px
+                    height: 100px
+                    border-radius: 50%
+                    margin-bottom: 2rem
+        .gp
+            &_main, &_coach
+                padding-bottom: 20px
+        .map
+            &_one, &_open
+                padding-bottom: 20px
+            &_item
+                span
+                    font-size: 16px
+    &_gym
+        min-height: 900px
+        background-color: #c2d1c7
+    &_martialArts
+        min-height: 700px
+        background-color: #f0f0f0
+    &_item_divider
+        margin: 14px auto
+        width: 90%
+        height: 1px
+        background-color: black
+        text-align: center
+.btn_pay
+    display: block
+    color: white
+    background-color: black
+    border-radius: 30px
+    height: 60px
+    font-size: 16px
+    width: 200px
